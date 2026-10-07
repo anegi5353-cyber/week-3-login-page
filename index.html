@@ -1,24 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucky's World - Login Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .login {
+            border: 1px solid green;
+            padding: 20px;
+            width: 250px;
+            margin: auto;
+        }
+
+        input {
+            padding: 8px;
+            margin: 8px;
+        }
+
+        button {
+            padding: 8px 25px;
+        }
+    </style>
 </head>
-<body>
 
-    <div class="login-box">
-        <h1>Hello I am Arun</h1>
-        <p>I am a basic programmer</p>
+<body style="
+    background-image: url('https://files.catbox.moe/8ylo14.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+" text="red">
+<h1><span style="color:green">Hello I am Arun <br> I am a basic programmer</span> </h1>
+    <div class="login">
+        <h1>welcome to lucky's world</h1>
+        <h2>Login your desiened page</h2>
 
-        <h2>Welcome to <span>Lucky's World</span></h2>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <br>
 
-        <input type="text" placeholder="Enter your name">
-        <input type="email" placeholder="Enter your email">
-        <input type="password" placeholder="Enter your password">
+            <input type="password" placeholder="Password" required>
+            <br>
 
-        <button>Login</button>
+            <button type="submit">Login</button>
+        </form>
+
     </div>
 
 </body>
